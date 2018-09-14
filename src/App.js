@@ -4,7 +4,7 @@ import './App.css';
 import GoogleLogin from 'react-google-login';
 
 class App extends Component {
-  const responseGoogle = (response) => {
+  responseGoogle = (response) => {
     console.log(response);
   }
   render() {
